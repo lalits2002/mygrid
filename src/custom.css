@@ -1,0 +1,79 @@
+.mygrid-container {
+  display: grid;
+
+  border: 1px solid;
+}
+
+.mygrid-toolbar {
+  margin: 20px;
+}
+
+/* .table {
+  display: block;
+} */
+.mygrid-search-input-text {
+  width: 300px;
+  height: 30px;
+
+  float: right;
+}
+.mygrid-data-table {
+  width: 100%;
+}
+.mygrid-data-table th {
+  padding: 15px;
+  border-bottom: 1px lightgrey solid;
+  border-top: 1px lightgrey solid;
+}
+.mygrid-data-table tr:nth-child(2n) {
+  background: #efefef;
+}
+.mygrid-data-table td {
+  padding: 15px;
+}
+.mygrid-records-per-page {
+  width: 50px;
+}
+.mygrid-pagination-btn-div {
+  color: black;
+  float: right;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.mygrid-pagination-btn {
+  cursor: pointer;
+  padding: 8px;
+  background: lightblue;
+  border: 3px;
+  border-radius: 3px;
+  margin: 1px;
+}
+
+.mygrid-table-head {
+  position: sticky;
+  top: 0;
+  background: lightgray;
+  border: 1px solid;
+}
+
+.grid-button-active {
+  background: darkblue;
+  color: white;
+}
+
+.mygrid-table-head  td {
+  cursor: pointer;
+  font-weight: bold;
+}
+.mygrid-active-column {
+  background: lightyellow;
+}
+
+.grid-sorting-direction {
+  float: right;
+}
+
+.mygrid-jump-to-page-input{
+    width: 50px;
+}
